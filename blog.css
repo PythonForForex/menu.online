@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+	line-height: 1.15; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+	 ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+	margin: 0;
+}
+
+a {
+	background-color: transparent;
+	text-decoration: none;
+	&:active, &:focus{
+		outline: none;
+	}
+}
+
+body{
+    padding: 2em;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+nav{
+    text-align: center;
+}
+nav .logo img{
+    max-width: 80%;
+    width: 320px;
+}
+main{
+    max-width: 700px;
+    margin: 0 auto;
+}
+h1{
+    margin-bottom: 0.3em;
+    font-size: 2em;
+    line-height: 1.2;
+}
+h2{
+    font-size: 1.4em;
+    margin-bottom: 0.3em;
+}
+.date{
+    margin-top: 0;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    body{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 340px) {
+    body{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 1.7em;
+    }
+}
