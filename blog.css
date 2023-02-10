@@ -52,6 +52,13 @@ h2{
     font-size: 1.4em;
     margin-bottom: 0.3em;
 }
+h3{
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+}
+p{
+    margin-top: 0;
+}
 .date{
     margin-top: 0;
     font-weight: bold;
