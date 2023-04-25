@@ -1,8 +1,8 @@
-===========================================================
-Menu.Online - Free web presence for restaurants
-===========================================================
+====================================
+Quick and Dirty Flask Website Set Up
+====================================
 
-MVP - V1.0
+A template to launch an MVP version of a website
 
 ------------
 Requirements
